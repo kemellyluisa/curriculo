@@ -10,9 +10,10 @@ html{
 
 header{
     width: 100%;
-    height: 50px;
+    height: 25px;
     display: flex;
     align-items: center;
+    background-color: #fbc6c1;
 }
 
 header p {
@@ -30,6 +31,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    background:linear-gradient(to bottom, #fbc6c1 50%, #ffffff 50%);
 }
 
 #banner img{
@@ -38,3 +40,60 @@ main{
     border-radius: 360px;
 }
 
+#intro{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#intro h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#intro div{
+    width: 95%;
+    height: auto;
+    padding: 5px;
+    
+    box-shadow: 0px 0px 1px 1px #000000;
+}
+
+#intro div p {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+#card{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.infocard{
+    width: 90%;
+    height: 30px;
+    box-shadow: 0px 0px 1px 1px #000000;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 180px;
+}
+.infocard p {
+    font-size: 16px;
+    text-transform: capitalize;
+}
